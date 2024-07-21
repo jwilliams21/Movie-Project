@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Modal, Button } from 'bootstrap';
 import { NavBar } from './NavBar';
 
-function App() {
+export function Home() {
 
 
   return (
@@ -11,4 +11,4 @@ function App() {
   )
 }
 
-export default App
+export default Home

@@ -9,7 +9,7 @@ export function NavBar () {
  return ( 
     <>
         <div className="navbar">
-            <div className="navheader">
+            <div className="navlogo">
                 <img src={OscarLogo} alt="OscarLogo"/>
             </div>
             <div className="navheader">
