@@ -1,0 +1,24 @@
+.homepage-image-container {
+    display: flex; /* Use flexbox for layout */
+    position: relative; /* Stacking context (optional) */
+  }
+
+.homepage-image-container img:last-child {
+    position: relative;
+    z-index: 1;
+}
+  
+.EveryoneOscar {
+    height: 300px;
+    width: 500px
+}
+
+.Homepage1 {
+    height: 300px;
+    width: 350px;
+}
+
+.Homepage2 {
+    height: 300px;
+    width: 400px;
+}
