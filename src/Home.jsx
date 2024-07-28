@@ -1,18 +1,21 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Modal, Button } from 'bootstrap';
-import { NavBar } from './NavBar';
+import NavBar from './NavBar.jsx';
 import EveryoneOscar from './assets/EveryoneOscar.jpg';
 import Homepage1 from './assets/Homepage1.webp';
 import Homepage2 from './assets/Homepage2.jpg';
 import './HomeStyle.css';
 
-export function Home() {
+function Home() {
 
 
   return (
     <>
       <NavBar />
+      
+      <div></div>
+
       <body>
         <div>
           <h4><b><u>The Academy</u></b></h4>
